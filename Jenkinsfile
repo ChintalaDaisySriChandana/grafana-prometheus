@@ -1,6 +1,6 @@
 
 pipeline {
-    agent { label 'slave-2' }
+    agent any
     environment {
         // Define variables, e.g., inventory and playbook
         INVENTORY_FILE = "inventory"

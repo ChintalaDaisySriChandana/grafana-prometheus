@@ -4,7 +4,7 @@ pipeline {
     environment {
         // Define variables, e.g., inventory and playbook
         INVENTORY_FILE = "inventory"
-        PLAYBOOK_FILE = "grafana.yml"
+        PLAYBOOK_FILE = "playbook.yml"
     }
     stages {
         stage('Clone Repository') {
